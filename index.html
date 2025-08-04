@@ -3,110 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Padaria do Zé - Pão fresquinho todos os dias</title>
+    <title>TechMumus - Soluções Tecnológicas</title>
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- Cabeçalho -->
     <header>
         <div class="container">
             <div class="logo">
-                <h1>Padaria do Zé</h1>
+                <h1>TechMumus</h1>
             </div>
             <nav>
                 <ul>
                     <li><a href="#home">Home</a></li>
-                    <li><a href="#produtos">Produtos</a></li>
-                    <li><a href="#sobre">Sobre</a></li>
-                    <li><a href="#contato">Contato</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#services">Serviços</a></li>
+                    <li><a href="#contact">Contato</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
+    <!-- Seção Hero -->
     <section id="home" class="hero">
-        <div class="hero-content">
-            <h2>Pão fresquinho todos os dias</h2>
-            <p>Tradição e qualidade desde 1985</p>
-            <a href="#produtos" class="btn">Conheça nossos produtos</a>
-        </div>
-        <div class="hero-image">
-            <div class="placeholder-image hero-placeholder">
-                <span>Imagem do pão fresco</span>
+        <div class="container">
+            <div class="hero-content">
+                <h2>Soluções Tecnológicas para o Seu Negócio</h2>
+                <p>Desenvolvemos sistemas personalizados que impulsionam sua empresa para o próximo nível.</p>
+                <a href="#contact" class="btn">Entre em Contato</a>
+            </div>
+            <div class="hero-image">
+                <img src="hero image.png" alt="TechMumus Soluções Tecnológicas">
             </div>
         </div>
     </section>
 
-    <section id="produtos" class="products">
+    <!-- Seção Sobre -->
+    <section id="about" class="about">
         <div class="container">
-            <h2>Nossos Produtos</h2>
-            <div class="product-grid">
-                <div class="product-card">
-                    <div class="placeholder-image product-placeholder">
-                        <span>Pães artesanais</span>
-                    </div>
-                    <h3>Pães Artesanais</h3>
-                    <p>Pães feitos com ingredientes selecionados e receitas tradicionais</p>
-                </div>
-                <div class="product-card">
-                    <div class="placeholder-image product-placeholder">
-                        <span>Bolos e tortas</span>
-                    </div>
-                    <h3>Bolos e Tortas</h3>
-                    <p>Doces caseiros para adoçar seu dia</p>
-                </div>
-                <div class="product-card">
-                    <div class="placeholder-image product-placeholder">
-                        <span>Café especial</span>
-                    </div>
-                    <h3>Café Especial</h3>
-                    <p>Café selecionado para começar bem o dia</p>
-                </div>
-                <div class="product-card">
-                    <div class="placeholder-image product-placeholder">
-                        <span>Salgados frescos</span>
-                    </div>
-                    <h3>Salgados</h3>
-                    <p>Opções deliciosas para o lanche da manhã ou tarde</p>
-                </div>
+            <div class="about-image">
+                <img src="about section image.png" alt="Sobre a TechMumus">
             </div>
-        </div>
-    </section>
-
-    <section id="sobre" class="about">
-        <div class="container">
             <div class="about-content">
-                <h2>Nossa História</h2>
-                <p>Fundada em 1985 por José Silva, a Padaria do Zé começou como um pequeno negócio familiar com o objetivo de levar pão fresco e de qualidade para a comunidade.</p>
-                <p>Hoje, mantemos a mesma tradição e compromisso com a excelência, utilizando receitas passadas de geração em geração e ingredientes cuidadosamente selecionados.</p>
-                <div class="placeholder-image about-placeholder">
-                    <span>Fachada da padaria</span>
+                <h2>Sobre Nós</h2>
+                <p>A TechMumus é uma empresa especializada em desenvolvimento de software e soluções tecnológicas personalizadas. Com nossa expertise, ajudamos empresas a otimizar processos, aumentar a produtividade e alcançar resultados excepcionais.</p>
+                <p>Nossa equipe de profissionais qualificados está comprometida em entregar soluções inovadoras que atendam às necessidades específicas de cada cliente.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Serviços -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Nossos Serviços</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>Desenvolvimento Web</h3>
+                    <p>Criação de websites e sistemas web responsivos e modernos.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Aplicativos Mobile</h3>
+                    <p>Desenvolvimento de aplicativos para Android e iOS.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Consultoria</h3>
+                    <p>Orientação especializada para transformação digital.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="contato" class="contact">
+    <!-- Seção de Contato -->
+    <section id="contact" class="contact">
         <div class="container">
             <h2>Entre em Contato</h2>
-            <div class="contact-content">
-                <div class="contact-info">
-                    <h3>Horário de Funcionamento</h3>
-                    <p>Segunda a Sábado: 6h às 20h</p>
-                    <p>Domingo: 7h às 18h</p>
-                    <p><strong>Endereço:</strong> Rua das Flores, 123 - Centro</p>
-                    <p><strong>Telefone:</strong> (11) 1234-5678</p>
-                </div>
-                <div class="placeholder-image map-placeholder">
-                    <span>Mapa de localização</span>
-                </div>
-            </div>
+            <p>Pronto para levar seu negócio para o próximo nível? Entre em contato conosco!</p>
+            <a href="mailto:contato@techmumus.com" class="btn">Enviar E-mail</a>
         </div>
     </section>
 
+    <!-- Rodapé -->
     <footer>
         <div class="container">
-            <p>&copy; 2023 Padaria do Zé. Todos os direitos reservados.</p>
+            <p>&copy; 2023 TechMumus. Todos os direitos reservados.</p>
         </div>
     </footer>
 </body>
