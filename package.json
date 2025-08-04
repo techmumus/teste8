@@ -1,0 +1,13 @@
+{
+  "name": "techmumus-teste8",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve .",
+    "build": "echo 'Nenhuma build necessária'"
+  },
+  "dependencies": {
+    "serve": "^14.2.0"
+  }
+}
